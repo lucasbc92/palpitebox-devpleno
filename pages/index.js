@@ -16,7 +16,6 @@ const Index = () => {
                     <a>Pesquisa</a>
                 </Link>
             </div>
-
         </div>        
     )
 }
