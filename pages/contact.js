@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Contato = () => {
+const Contact = () => {
     return (
         <div>
-            <h1>Contato</h1>
+            <h1>Contact</h1>
             <div>
                 <Link href='/'>
                     <a>Home</a>
@@ -14,4 +14,4 @@ const Contato = () => {
     )
 }
 
-export default Contato
+export default Contact

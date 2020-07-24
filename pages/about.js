@@ -1,17 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Pesquisa = () => {
+const About = () => {
     return (
         <div>
-            <h1>Pesquisa</h1>
+            <h1>About</h1>
             <div>
                 <Link href='/'>
                     <a>Home</a>
                 </Link>
             </div>
         </div>
+    
     )
 }
 
-export default Pesquisa
+export default About

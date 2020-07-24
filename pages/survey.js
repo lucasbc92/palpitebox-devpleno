@@ -1,18 +1,17 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Sobre = () => {
+const Survey = () => {
     return (
         <div>
-            <h1>Sobre</h1>
+            <h1>Survey</h1>
             <div>
                 <Link href='/'>
                     <a>Home</a>
                 </Link>
             </div>
         </div>
-    
     )
 }
 
-export default Sobre;
+export default Survey
