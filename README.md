@@ -1,5 +1,7 @@
 # PalpiteBox - Fullstack Master Week
 
+[![HitCount](https://hits.dwyl.com/lucasbc92/lucasbc92/palpitebox-devpleno.svg)](https://hits.dwyl.com/lucasbc92/lucasbc92/palpitebox-devpleno)
+
 This project was built during Fullstack Master Week from [DevPleno](https://devpleno.com). An online version of this project can be found at: https://palpite-box.tuliofaria.dev/.
 
 ![Preview](https://github.com/lucasbc92/palpitebox-devpleno/blob/master/print.png?raw=true)
