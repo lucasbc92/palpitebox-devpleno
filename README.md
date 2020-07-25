@@ -1,7 +1,5 @@
 # PalpiteBox - Fullstack Master Week
 
-[! [HitCount] (https://hits.dwyl.com/tuliofaria/tuliofaria/palpite-box.svg)] (https://hits.dwyl.com/tuliofaria/tuliofaria/palpite-box)
-
 This project was built during Fullstack Master Week from [DevPleno] (https://devpleno.com). An online version of this project can be found at: https://palpite-box.tuliofaria.dev/.
 
 ! [Preview] (https://github.com/lucasbc92/palpitebox-devpleno/blob/master/print.png?raw=true)
@@ -40,16 +38,3 @@ SHEET_DOC_ID = spreadsheet id
 rapidly building custom designs.
 * [Figma] (https://figma.com/) - Online prototyping tool.
 * [Google Sheets] (https://drive.google.com) - Google Sheets Online
-
-## Author:
-
-* ** Tulio Faria ** - [LinkedIn] (https://www.linkedin.com/in/tuliofaria/)
-
-
-## License
-
-This project is licensed under the MIT license - see [LICENSE.md] (LICENSE.md) for more information.
-
-## Acknowledgments
-
-* This project was built during [DevPleno] Fullstack Master Week (https://devpleno.com).
