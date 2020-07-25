@@ -2,7 +2,7 @@
 
 This project was built during Fullstack Master Week from [DevPleno](https://devpleno.com). An online version of this project can be found at: https://palpite-box.tuliofaria.dev/.
 
-! [Preview](https://github.com/lucasbc92/palpitebox-devpleno/blob/master/print.png?raw=true)
+![Preview](https://github.com/lucasbc92/palpitebox-devpleno/blob/master/print.png?raw=true)
 
 ## Start
 
