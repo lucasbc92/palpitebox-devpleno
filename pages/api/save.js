@@ -16,7 +16,7 @@ export default async(req, res) => {
         await doc.useServiceAccountAuth(credentials);
         await doc.loadInfo();
     
-        const { Name, Email, Whatsapp } = JSON.parse(req.body);
+        const { Name, Email, Whatsapp, Grade } = JSON.parse(req.body);
         
         const configSheet = doc.sheetsByIndex[2];    
         await configSheet.loadCells('A3:B3');
@@ -26,7 +26,6 @@ export default async(req, res) => {
 
         let Coupon = ''
         let Promo = ''
-        let Grade = 5
 
         if(showCoupon) {
             // TODO: gerar cupom
@@ -43,7 +42,7 @@ export default async(req, res) => {
             Coupon,
             Promo,
             Grade,
-            Date: moment().format('DD/MM/YYYY, HH:mm')
+            Date: moment().format('DD/MM/YYYY, HH:mm:ss')
         })
     
         res.end(JSON.stringify({

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import PageTitle from '../components/PageTitle'
 
 import useSWR from 'swr'
 
@@ -10,6 +11,7 @@ const Index = () => {
 
     return (
         <div>
+            <PageTitle title='Welcome'/>
             <p className='mt-12 text-center'>
                 This establishment always seeks to better serve its customers.
                 <br/>Therefore, we are always open to listen to your opinion.
