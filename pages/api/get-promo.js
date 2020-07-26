@@ -8,16 +8,11 @@ export default async(req, res) => {
         await doc.useServiceAccountAuth(credentials);
         await doc.loadInfo();
     
-        const sheet = doc.sheetsByIndex[2];
-    
+        const sheet = doc.sheetsByIndex[2];    
         await sheet.loadCells('A3:B3');
-        console.log(sheet.title);
-    
-        const showCoupon = sheet.getCell(2,0).value; 
-        console.log(showCoupon);
 
+        const showCoupon = sheet.getCell(2,0).value; 
         const message = sheet.getCell(2,1).value;
-        console.log(message);
 
         res.end(JSON.stringify({
             showCoupon,
