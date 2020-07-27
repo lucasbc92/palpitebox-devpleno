@@ -71,7 +71,7 @@ const Survey = () => {
                 <label className='font-bold'>Grade:</label>
                 <div className='flex'>
                 {grades.map(grade => {
-                    return <label className='block w-1/5 text-center py-6'>
+                    return <label key={grade} className='block w-1/5 text-center py-6'>
                         {grade} <br/>
                         <input type="radio" name="Grade" value={grade} onChange={handleGrade}/>
                     </label>
@@ -91,15 +91,15 @@ const Survey = () => {
             </div>
             }
             { success &&
-            <div class="w-1/2 mx-auto my-12 bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3 text-center" role="alert">
-                <p class="mb-6 font-bold">Thank you for contributing with your opinion or suggestion!</p>
+            <div className="w-1/2 mx-auto my-12 bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3 text-center" role="alert">
+                <p className="mb-6 font-bold">Thank you for contributing with your opinion or suggestion!</p>
                 { result.showCoupon &&
                 <>
-                    <p class="border border-gray-500 p-4">
+                    <p className="border border-gray-500 p-4">
                         Your coupon: <br/> 
                         <span className='font-bold text-2xl'>{result.Coupon}</span>
                     </p>
-                    <p class="border border-gray-500 p-4">
+                    <p className="border border-gray-500 p-4">
                         <span className='font-bold'>{result.Promo}</span>
                         <br/><br/>
                         <span className='italic'>Take a picture of this screen and show it to the waiter.</span>
